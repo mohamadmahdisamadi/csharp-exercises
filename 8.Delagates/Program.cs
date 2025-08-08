@@ -2,7 +2,6 @@
 
 /*
     A generalized reporting system that accpets any enumerable data structers and takes an action on the filtered items.
-
 */
 
 Action<string> wl = (message) => Console.WriteLine(message);
@@ -31,10 +30,10 @@ reportingService.ProcessAndReport<Employee>(employees, x => true, x => wl($"[id:
 
 public class Employee
 {
-    public int Id { get; set; }
-    public string Name { get; set; } = string.Empty;
-    public string Department { get; set; } = string.Empty;
-    public double Salary { get; set; }
+    public int Id { get; init; }
+    public string Name { get; init; } = string.Empty;
+    public string Department { get; init; } = string.Empty;
+    public double Salary { get; init; }
 }
 
 public class ReportingService
