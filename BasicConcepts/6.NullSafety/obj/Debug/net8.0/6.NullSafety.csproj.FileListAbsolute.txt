@@ -1,0 +1,15 @@
+E:\uni\C#\csharp-exercises\6.NullSafety\bin\Debug\net8.0\6.NullSafety.exe
+E:\uni\C#\csharp-exercises\6.NullSafety\bin\Debug\net8.0\6.NullSafety.deps.json
+E:\uni\C#\csharp-exercises\6.NullSafety\bin\Debug\net8.0\6.NullSafety.runtimeconfig.json
+E:\uni\C#\csharp-exercises\6.NullSafety\bin\Debug\net8.0\6.NullSafety.dll
+E:\uni\C#\csharp-exercises\6.NullSafety\bin\Debug\net8.0\6.NullSafety.pdb
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.GeneratedMSBuildEditorConfig.editorconfig
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.AssemblyInfoInputs.cache
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.AssemblyInfo.cs
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.csproj.CoreCompileInputs.cache
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.sourcelink.json
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.dll
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\refint\6.NullSafety.dll
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.pdb
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\6.NullSafety.genruntimeconfig.cache
+E:\uni\C#\csharp-exercises\6.NullSafety\obj\Debug\net8.0\ref\6.NullSafety.dll
