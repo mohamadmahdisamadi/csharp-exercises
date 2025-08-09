@@ -1,0 +1,15 @@
+E:\uni\C#\csharp-exercises\ContactsApp\bin\Debug\net8.0\ContactsApp.exe
+E:\uni\C#\csharp-exercises\ContactsApp\bin\Debug\net8.0\ContactsApp.deps.json
+E:\uni\C#\csharp-exercises\ContactsApp\bin\Debug\net8.0\ContactsApp.runtimeconfig.json
+E:\uni\C#\csharp-exercises\ContactsApp\bin\Debug\net8.0\ContactsApp.dll
+E:\uni\C#\csharp-exercises\ContactsApp\bin\Debug\net8.0\ContactsApp.pdb
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.AssemblyInfoInputs.cache
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.AssemblyInfo.cs
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.csproj.CoreCompileInputs.cache
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.sourcelink.json
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.dll
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\refint\ContactsApp.dll
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.pdb
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ContactsApp.genruntimeconfig.cache
+E:\uni\C#\csharp-exercises\ContactsApp\obj\Debug\net8.0\ref\ContactsApp.dll
