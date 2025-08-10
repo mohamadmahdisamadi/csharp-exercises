@@ -15,6 +15,8 @@ public enum CommandType
     AddContact = 1,
     DeleteContact,
     EditContact,
-    SearchContact,
-    ExitProgram
+    ShowContacts,
+    ExitProgram,
+    
+    ShowCommands
 }
