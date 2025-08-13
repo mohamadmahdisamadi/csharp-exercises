@@ -26,9 +26,13 @@ var report = employees
         .OrderByDescending(g => g.AvgSalary)
         .ToList();
 
-foreach (var item in report)
+var res = from p in employees
+            where p.IsNigga()
+            select new Employee { Id = p.Id + 10, Name = p.Name + ".", Department = p.Department + "." , Salary = p.Salary * 2 };
+
+foreach (var item in res)
 {
-    Console.WriteLine($"Department {item.DepartmentName} with {item.Count} employees, Has an average salary of {item.AvgSalary}.");
+    Console.WriteLine($"{item.Department}, {item.Name}, {item.Salary}");
 }
 
 public class Employee
@@ -37,4 +41,5 @@ public class Employee
     public string Name { get; init; } = string.Empty;
     public string Department { get; init; } = string.Empty;
     public double Salary { get; init; }
+    public bool IsNigga() { return Id > 5; }
 }
