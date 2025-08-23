@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
+using ShoppingSystem.Domain.Shared.Validation;
 namespace ShoppingSystem.Application.DTOs;
 
 public class EditPasswordDto
 {
     [Required]
-    // [StringLength(100, MinimumLength = 8)]
+    [ComplexPassword]
     public string Password { get; set; } = string.Empty;
 }

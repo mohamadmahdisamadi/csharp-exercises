@@ -81,25 +81,21 @@ public class UserService : IUserService
 
     public async Task<UserDto> AddUserAsync(RegisterUserDto userDto)
     {
-        if (userDto.IsValid())
+        var user = new UserEntity
         {
-            var user = new UserEntity
-            {
-                Name = userDto.Name,
-                Email = userDto.Email,
-                Age = userDto.Age,
-                Password = userDto.Password
-            };
+            Name = userDto.Name,
+            Email = userDto.Email,
+            Age = userDto.Age,
+            Password = userDto.Password
+        };
 
-            var newUser = await _userRepository.AddUserAsync(user);
-            return new UserDto
-            {
-                Id = newUser.Id,
-                Name = newUser.Name,
-                Email = newUser.Email,
-                Age = newUser.Age,
-            };
-        }
-        throw new ArgumentException("user info is not valid.");
+        var newUser = await _userRepository.AddUserAsync(user);
+        return new UserDto
+        {
+            Id = newUser.Id,
+            Name = newUser.Name,
+            Email = newUser.Email,
+            Age = newUser.Age,
+        };
     }
 }

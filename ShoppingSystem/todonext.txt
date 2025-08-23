@@ -1,0 +1,7 @@
+Somehow store current loggedin user
+Delete, Edit(s) -> on current logged in user
+
+Create Products database to show user what products are available.
+
+Create order database. each order is for a specific user (ask gemini how to handle it).
+Add order to logged in user shopping basket.

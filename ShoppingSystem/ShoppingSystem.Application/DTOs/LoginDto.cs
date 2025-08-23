@@ -1,21 +1,16 @@
 using System.ComponentModel.DataAnnotations;
 using ShoppingSystem.Domain.Shared.Validation;
+
 namespace ShoppingSystem.Application.DTOs;
 
-public class RegisterUserDto
+public class LoginDto
 {
     [Required]
-    [StringLength(100, MinimumLength = 5)]
+    [StandardName]
     public string Name { get; set; } = string.Empty;
-
-    [Required]
-    [EmailAddress]
-    public string Email { get; set; } = string.Empty;
-
-    [StandardAge]
-    public int Age { get; set; }
 
     [Required]
     [ComplexPassword]
     public string Password { get; set; } = string.Empty;
+    
 }
