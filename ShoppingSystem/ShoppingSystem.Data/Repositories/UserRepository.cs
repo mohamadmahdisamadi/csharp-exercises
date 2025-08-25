@@ -7,7 +7,8 @@ namespace ShoppingSystem.Data.Repositories;
 public class UserRepository : IUserRepository
 {
     private readonly AppDbContext _context;
-    public UserRepository(AppDbContext context) {
+    public UserRepository(AppDbContext context)
+    {
         _context = context;
     }
 
@@ -48,5 +49,9 @@ public class UserRepository : IUserRepository
     public async Task<UserEntity?> GetUserByIdAsync(int id)
     {
         return await _context.Users.FindAsync(id);
+    }
+    public async Task ClearAllAsync()
+    {
+        await _context.Users.ExecuteDeleteAsync();
     }
 }

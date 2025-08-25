@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using ShoppingSystem.Domain.Shared.Enums;
 using ShoppingSystem.Domain.Shared.Validation;
 namespace ShoppingSystem.Domain.Entities;
 
@@ -21,4 +22,7 @@ public class UserEntity
     [Required]
     [ComplexPassword]
     public string Password { get; set; } = string.Empty;
+
+    [Required]
+    public RoleType Role { get; set; } = RoleType.User;
 }

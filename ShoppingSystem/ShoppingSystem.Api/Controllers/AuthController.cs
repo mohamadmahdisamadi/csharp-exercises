@@ -14,6 +14,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
+    [EndpointSummary("Authorize User")]
     [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> Login([FromBody] LoginDto loginDto)

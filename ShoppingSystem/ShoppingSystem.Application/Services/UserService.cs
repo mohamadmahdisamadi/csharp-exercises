@@ -98,4 +98,26 @@ public class UserService : IUserService
             Age = newUser.Age,
         };
     }
+
+    public async Task<bool> EditUserByAdminAsync(int id, EditByAdminDto editedUser)
+    {
+        UserEntity? user = await _userRepository.GetUserByIdAsync(id);
+        if (user == null)
+        {
+            return false;
+        }
+
+        user.Name = editedUser.Name ?? user.Name;
+        user.Email = editedUser.Email ?? user.Email;
+        user.Age = editedUser.Age ?? user.Age;
+        user.Password = editedUser.Password ?? user.Password;
+
+        await _userRepository.EditUserAsync(user);
+        return true;
+    }
+
+    public async Task ClearAllAsync()
+    {
+        await _userRepository.ClearAllAsync();
+    }
 }
